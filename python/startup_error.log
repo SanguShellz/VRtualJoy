@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "D:\My Tools\Python\PyOpenVR\Python\VRtualjoy.py", line 130, in <module>
+    asyncio.run(main())
+  File "asyncio\runners.py", line 190, in run
+  File "asyncio\runners.py", line 118, in run
+  File "asyncio\base_events.py", line 653, in run_until_complete
+  File "D:\My Tools\Python\PyOpenVR\Python\VRtualjoy.py", line 126, in main
+    await logic.run_main_loop(controller1, controller2, hmd, gamepad, config)
+  File "D:\My Tools\Python\PyOpenVR\python\VRtualJoy_xinput.py", line 164, in run_main_loop
+    controller1_state = controller1.get_controller_inputs() if controller1 else {}
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My Tools\Python\PyOpenVR\python\triad_openvr.py", line 175, in get_controller_inputs
+    result, state = self.vr.getControllerState(self.index)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My Tools\Python\PyOpenVR\python\Lib\site-packages\openvr\__init__.py", line 3342, in getControllerState
+    result = fn(controllerDeviceIndex, byref(controllerState), controllerStateSize)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: exception: access violation reading 0x0000000000000000
