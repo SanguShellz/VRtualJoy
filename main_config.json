@@ -1,0 +1,105 @@
+{
+  "__comment__filename": "main_config.json",
+   "__comment__Controller_Type_Options": "XINPUT or DS4",
+  
+  "CONTROLLER_TYPE": "XINPUT",
+
+  "HEADTRACKING_ENABLED": true,
+  "HEADTRACKING_YAW_ENABLED": true,
+  "HEADTRACKING_PITCH_ENABLED": true,
+  "HEADTRACKING_DEADZONE_X": 0.1,
+  "HEADTRACKING_DEADZONE_Y": 0.1,
+  "HEADTRACKING_SENSITIVITY_YAW": 1.5,
+  "HEADTRACKING_SENSITIVITY_PITCH": 1.5,
+  "HEADTRACKING_SMOOTHING_YAW": 0.2,
+  "HEADTRACKING_SMOOTHING_PITCH": 0.2,
+  "HEADTRACKING_RANGE_DEGREES": 45.0,
+
+  "DYNAMIC_DEADZONE_ENABLED": false,
+  "DYNAMIC_DEADZONE_WINDOW": 0.15,
+
+  "JOYSTICK_BLEND_HMD": 0.7,
+  "JOYSTICK_BLEND_CONTROLLER": 0.3,
+
+  "LEFT_X_ENABLED": true,
+  "LEFT_Y_ENABLED": true,
+  "RIGHT_X_ENABLED": true,
+  "RIGHT_Y_ENABLED": true,
+
+  "LEFT_X_DEADZONE": 0.1,
+  "LEFT_Y_DEADZONE": 0.1,
+  "RIGHT_X_DEADZONE": 0.1,
+  "RIGHT_Y_DEADZONE": 0.1,
+
+  "LEFT_X_REMAP": "controller1:trackpad_x",
+  "LEFT_Y_REMAP": "controller1:trackpad_y",
+  "RIGHT_X_REMAP": "controller2:trackpad_x",
+  "RIGHT_Y_REMAP": "controller2:trackpad_y",
+
+  "MAPPINGS": {
+    "DS4": {
+      "BUTTON_MAPPINGS": {
+        "controller2": {
+          "grip_button": { "target": "right_shoulder" },
+          "trigger": { "target": "right_trigger" },
+          "trackpad_pressed": { "target": "right_thumb" },
+          "ulButtonPressed_B": { "target": "b" },
+          "ulButtonPressed_A": { "target": "a" }
+        },
+        "controller1": {
+          "trigger": { "target": "left_trigger" },
+          "trackpad_pressed": { "target": "left_thumb" },
+          "ulButtonPressed_Y": { "target": "y" },
+          "ulButtonPressed_X": { "target": "x" }
+        }
+      },
+      "SHIFT_BUTTON_MAPPINGS": {
+        "controller2": {
+          "grip_button": { "target": "left_shoulder" },
+          "trigger": { "target": "right_trigger" },
+          "trackpad_pressed": { "target": "back" },
+          "ulButtonPressed_B": { "target": "b" },
+          "ulButtonPressed_A": { "target": "a" }
+        },
+        "controller1": {
+          "trigger": { "target": "left_trigger" },
+          "trackpad_pressed": { "target": "start" },
+          "ulButtonPressed_Y": { "target": "y" },
+          "ulButtonPressed_X": { "target": "x" }
+        }
+      }
+    },
+    "XINPUT": {
+      "BUTTON_MAPPINGS": {
+        "controller2": {
+          "grip_button": { "target": "right_shoulder" },
+          "trigger": { "target": "right_trigger" },
+          "trackpad_pressed": { "target": "right_thumb" },
+          "ulButtonPressed_B": { "target": "b" },
+          "ulButtonPressed_A": { "target": "a" }
+        },
+        "controller1": {
+          "trigger": { "target": "left_trigger" },
+          "trackpad_pressed": { "target": "left_thumb" },
+          "ulButtonPressed_Y": { "target": "y" },
+          "ulButtonPressed_X": { "target": "x" }
+        }
+      },
+      "SHIFT_BUTTON_MAPPINGS": {
+        "controller2": {
+          "grip_button": { "target": "left_shoulder" },
+          "trigger": { "target": "right_trigger" },
+          "trackpad_pressed": { "target": "back" },
+          "ulButtonPressed_B": { "target": "b" },
+          "ulButtonPressed_A": { "target": "a" }
+        },
+        "controller1": {
+          "trigger": { "target": "left_trigger" },
+          "trackpad_pressed": { "target": "start" },
+          "ulButtonPressed_Y": { "target": "y" },
+          "ulButtonPressed_X": { "target": "x" }
+        }
+      }
+    }
+  }
+}
