@@ -22,4 +22,6 @@
 7. **Customize Settings**  
    You can adjust settings and remap keys for each virtual controller type by editing `main_config.json`.
 
+**Note: This prject utlizies a portable version of python.**
+
 
