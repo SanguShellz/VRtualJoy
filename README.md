@@ -1,7 +1,7 @@
 ## How to Download and Use
 
 1. **Download the Repository**  
-   Click the green **Clone or Download** button, then select **Download ZIP**.
+   Click the green **code** button, then select **Download ZIP**.
 
 2. **Extract the Files**  
    Unzip the downloaded file.
