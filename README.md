@@ -22,6 +22,6 @@
 7. **Customize Settings**  
    You can adjust settings and remap keys for each virtual controller type by editing `main_config.json`.
 
-**Note: VRtualJoy was tested and works wtih Windows 11. This project contains and utilizies a portable version of python.  No other requirements neccesary**
+**Note: VRtualJoy was tested and works with Windows 11. This project contains and utilizies a portable version of python.  No other requirements neccesary**
 
 
