@@ -1,0 +1,104 @@
+{
+  "__comment__filename": "main_config.json",
+  
+  "CONTROLLER_TYPE": "DS4",
+
+  "HEADTRACKING_ENABLED": true,
+  "HEADTRACKING_YAW_ENABLED": true,
+  "HEADTRACKING_PITCH_ENABLED": true,
+  "HEADTRACKING_DEADZONE_X": 0.1,
+  "HEADTRACKING_DEADZONE_Y": 0.1,
+  "HEADTRACKING_SENSITIVITY_YAW": 1.5,
+  "HEADTRACKING_SENSITIVITY_PITCH": 1.5,
+  "HEADTRACKING_SMOOTHING_YAW": 0.2,
+  "HEADTRACKING_SMOOTHING_PITCH": 0.2,
+  "HEADTRACKING_RANGE_DEGREES": 45.0,
+
+  "DYNAMIC_DEADZONE_ENABLED": false,
+  "DYNAMIC_DEADZONE_WINDOW": 0.15,
+
+  "JOYSTICK_BLEND_HMD": 0.7,
+  "JOYSTICK_BLEND_CONTROLLER": 0.3,
+
+  "LEFT_X_ENABLED": true,
+  "LEFT_Y_ENABLED": true,
+  "RIGHT_X_ENABLED": true,
+  "RIGHT_Y_ENABLED": true,
+
+  "LEFT_X_DEADZONE": 0.1,
+  "LEFT_Y_DEADZONE": 0.1,
+  "RIGHT_X_DEADZONE": 0.1,
+  "RIGHT_Y_DEADZONE": 0.1,
+
+  "LEFT_X_REMAP": "left_controller:trackpad_x",
+  "LEFT_Y_REMAP": "left_controller:trackpad_y",
+  "RIGHT_X_REMAP": "right_controller:trackpad_x",
+  "RIGHT_Y_REMAP": "right_controller:trackpad_y",
+
+  "MAPPINGS": {
+    "DS4": {
+      "BUTTON_MAPPINGS": {
+        "right_controller": {
+          "grip_button": { "target": "right_shoulder" },
+          "trigger": { "target": "right_trigger" },
+          "joystick_pressed": { "target": "right_thumb" },
+          "ButtonPressed_B": { "target": "b" },
+          "ButtonPressed_A": { "target": "a" }
+        },
+        "left_controller": {
+          "trigger": { "target": "left_trigger" },
+          "joystick_pressed": { "target": "left_thumb" },
+          "ButtonPressed_Y": { "target": "y" },
+          "ButtonPressed_X": { "target": "x" }
+        }
+      },
+      "SHIFT_BUTTON_MAPPINGS": {
+        "right_controller": {
+          "grip_button": { "target": "left_shoulder" },
+          "trigger": { "target": "right_trigger" },
+          "joystick_pressed": { "target": "back" },
+          "ButtonPressed_B": { "target": "b" },
+          "ButtonPressed_A": { "target": "a" }
+        },
+        "left_controller": {
+          "trigger": { "target": "left_trigger" },
+          "joystick_pressed": { "target": "start" },
+          "ButtonPressed_Y": { "target": "y" },
+          "ButtonPressed_X": { "target": "x" }
+        }
+      }
+    },
+    "XINPUT": {
+      "BUTTON_MAPPINGS": {
+        "right_controller": {
+          "grip_button": { "target": "right_shoulder" },
+          "trigger": { "target": "right_trigger" },
+          "joystick_pressed": { "target": "right_thumb" },
+          "ButtonPressed_B": { "target": "b" },
+          "ButtonPressed_A": { "target": "a" }
+        },
+        "left_controller": {
+          "trigger": { "target": "left_trigger" },
+          "joystick_pressed": { "target": "left_thumb" },
+          "ButtonPressed_Y": { "target": "y" },
+          "ButtonPressed_X": { "target": "x" }
+        }
+      },
+      "SHIFT_BUTTON_MAPPINGS": {
+        "right_controller": {
+          "grip_button": { "target": "left_shoulder" },
+          "trigger": { "target": "right_trigger" },
+          "joystick_pressed": { "target": "back" },
+          "ButtonPressed_B": { "target": "b" },
+          "ButtonPressed_A": { "target": "a" }
+        },
+        "left_controller": {
+          "trigger": { "target": "left_trigger" },
+          "joystick_pressed": { "target": "start" },
+          "ButtonPressed_Y": { "target": "y" },
+          "ButtonPressed_X": { "target": "x" }
+        }
+      }
+    }
+  }
+}

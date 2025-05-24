@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: openvr
+Version: 1.26.701
+Summary: Unofficial python bindings for Valve OpenVR SDK
+Home-page: https://github.com/cmbruns/pyopenvr
+Download-URL: https://github.com/cmbruns/pyopenvr/tarball/1.26.0701
+Author: Christopher Bruns and others
+Author-email: cmbruns@rotatingpenguin.com
+License: BSD
+Keywords: openvr valve htc vive vr virtual reality 3d graphics
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Microsoft :: Windows :: Windows 7
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Multimedia :: Graphics :: 3D Rendering
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.7
+License-File: LICENSE
+Provides-Extra: pyqt5
+Requires-Dist: numpy ; extra == 'pyqt5'
+Requires-Dist: PyOpenGL ; extra == 'pyqt5'
+Requires-Dist: PyQt5 ; extra == 'pyqt5'
+Requires-Dist: jinja2 ; extra == 'pyqt5'
+Provides-Extra: pyside2
+Requires-Dist: numpy ; extra == 'pyside2'
+Requires-Dist: PyOpenGL ; extra == 'pyside2'
+Requires-Dist: PySide2 ; extra == 'pyside2'
+Provides-Extra: generate
+Requires-Dist: clang ; extra == 'generate'
+Provides-Extra: glfw
+Requires-Dist: numpy ; extra == 'glfw'
+Requires-Dist: PyOpenGL ; extra == 'glfw'
+Requires-Dist: glfw ; extra == 'glfw'
+Provides-Extra: opengl
+Requires-Dist: numpy ; extra == 'opengl'
+Requires-Dist: PyOpenGL ; extra == 'opengl'
+Provides-Extra: sdl2
+Requires-Dist: numpy ; extra == 'sdl2'
+Requires-Dist: PyOpenGL ; extra == 'sdl2'
+Requires-Dist: PySDL2 ; extra == 'sdl2'
+Provides-Extra: wx
+Requires-Dist: numpy ; extra == 'wx'
+Requires-Dist: PyOpenGL ; extra == 'wx'
+Requires-Dist: wxPython ; extra == 'wx'
+
+Valve OpenVR SDK python bindings using ctypes
