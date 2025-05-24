@@ -22,4 +22,4 @@
 7. **Customize Settings**  
    You can adjust settings and remap keys for each virtual controller type by editing `main_config.json`.
 
-**Note: VRtualJoy was tested and works with Windows 11. 
+**Note: VRtualJoy was tested and works with Windows 11.**
