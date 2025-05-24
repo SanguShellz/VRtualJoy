@@ -1,7 +1,7 @@
 {
   "__comment__filename": "main_config.json",
   
-  "CONTROLLER_TYPE": "DS4",
+  "CONTROLLER_TYPE": "XINPUT",
 
   "HEADTRACKING_ENABLED": true,
   "HEADTRACKING_YAW_ENABLED": true,
